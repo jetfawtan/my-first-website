@@ -13,20 +13,63 @@
         <div id="nav">
             <h3>Nagivation</h3>
             <ul>
-                <li><a class="selected" hred="">Home</a></li>
-                <li><a href="about html">About</a></li>
+                <li><a class="selected" href="">Home</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="01-safety.html">Fablab Safety</a></li>
                 <li><a href="02-tools.html">Tools</a></li>
                 <li><a href="03-web.html">Web Development</a></li>
                 <li><a href="04-cad.html">CAD</a></li>
                 <li><a href="05-3dprint.html">3D Printing</a></li>
                 <li><a href="06-laser.html">Laser Cutting</a></li>
+                <li><a href="07-program.html">Embedded Programming</a></li>
                 <li><a href="09-FinalModuleProjectDocument.html">Final Project</a></li>
             </ul>
             </div>
             <div id ="main">
-            <h2>My Introduction</h2>
-            <p>HI, I am Jia Le from DCBP</p>
+            <h2>Final Module Project</h2>
+            <p>Bill of materials</p>
+                <ol>
+                    <li>LED Strip</li>
+                    <li>7 dupont cables</li>
+                    <li>Arduino board</li>
+                    <li>Breadboard</li>
+                    <li>Push button</li>
+                    <li>USB power source</li>
+                    <li>3mm transparent and white acryllic</li>
+                    <li>Grey fillihg for 3D printer</li>
+                    <p>My final module project is called Jia Le's Mood lamp. It is a mood lamp with different gradients of blue when the push button is used.<p>
+                    <p>In order to complete my mood lamp, I had to first create a sketch for my mood lamp</p>
+                    <img src="project1.png"/>
+                    <p>For the sketch above,it is for the overall box. I placed two holes at the side as i had intended to place my push button within it and the usb power cable through the other hole.</p>
+                    <img src="project2.png"/>
+                    <p>For the sketch above, it is for the middle section of the box as i wanted to use it as a divide between the top portion of my box where i would place my led strips and the bottom portion of the box is where i place the arduino board and the breadboard. The hole in the middle section is supposed to allow the led strip to enter the top section of the box. </p>
+                    <img src="projectL.png"/>
+                    <p>For the sketch above, it is to print out the 3D printed part of my box by adding a letter L to paste it on my box to recognise that it is mine.</p>
+                    <a href="top.dxf">Top dxf file</a>
+                    <a href="bottom.dxf">Bottom dxf file</a>
+                    <a href="back.dxf">Back dxf file</a>
+                    <a href="front.dxf">Front dxf file</a>
+                    <a href="right.dxf">Right dxf file</a>
+                    <a href="left.dxf">Left dxf files</a>
+                    <p>The second stage was to laser cut the sketch. I used 3mm white acrylic to form the box. Below are images of the box after forming it.</p>
+                    <img src="projectbox.jfif"/>
+                    <img src="projectbox2.jfif"/>
+                    <p>The third stage was to 3D print the L shape. Below is a picture of the file being sliced in the Cura.</p>
+                    <img src="CuraL.png">
+                    <p>It was quite hard to piece the acrylic pieces together as they would often fall apart.I decided to use super glue such that box does not fall apart after I have pieced it together.</p>
+                    <p>The third stage was to program the arduino uno. I programmed the arduino uno such that the led strip will light up according to the different gradiances of blue after pushing the push button. Below is the code that i wrote down which i seeked reference from the internet on moodlamp neopixel codes.</p>
+                    <img src="projectcode1.png"/>
+                    <img src="projectcode2.png"/>
+                    <img src="projectcode3.png"/>
+                    <img src="projectcode4.png"/>
+                    <img src="projectcode5.png"/>
+                    <img src="projectcode6.png"/>
+                    <img src="projectcode7.png"/>
+                    <img src="project.mp4"/>
+                    <p>However, there seems to be an issue when i try to run the arduino program. This might be due to some error within my code. The video above shows what happens when i try to run the arduino program</p>
+                    
+                    
+                </ol>
             </div>
             <div id="footer">
                 Copyright &copy; Lim Jia Le
